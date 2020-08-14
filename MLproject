@@ -2,7 +2,7 @@ name: project-null
 
 docker_env:
     image: natihd16/mlflow-project-null:latest
-    volumes: ["./data:/home"]
+    volumes: ["${HOME}/data:/home"]
 
 entry_points:
   main:
