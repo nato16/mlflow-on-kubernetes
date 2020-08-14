@@ -8,4 +8,4 @@ entry_points:
   main:
     parameters:
       input_file: string
-    command: "python scripts/train.py {input_file}"
+    command: "python /home/train.py {input_file}"
