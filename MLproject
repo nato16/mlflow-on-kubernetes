@@ -1,4 +1,4 @@
-name: mlflow-project-null
+name: mlflow-project-null:latest
 
 docker_env:
   image: mlflow-project-null:latest
