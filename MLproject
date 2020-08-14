@@ -7,5 +7,5 @@ docker_env:
 entry_points:
   main:
     parameters:
-      input_file: path
+      input_file: string
     command: "python train.py {input_file}"
