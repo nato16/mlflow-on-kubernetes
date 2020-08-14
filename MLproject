@@ -2,6 +2,7 @@ name: My Project
 
 docker_env:
     image:  docker.io/natihd16/mlflow-project-null:latest
+    volumes: ["./data:/home"]
 
 entry_points:
   main:
