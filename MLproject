@@ -1,8 +1,8 @@
 name: mlflow-project-null
 
 docker_env:
-    image: mlflow-project-null
-    volumes: ["${HOME}/data:/home"]
+  image: mlflow-project-null:latest
+  volumes: ["${HOME}/data:/home"]
 
 entry_points:
   main:
