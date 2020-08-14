@@ -1,0 +1,10 @@
+name: My Project
+
+docker_env:
+    image:  natihd16/mlflow-project-null
+
+entry_points:
+  main:
+    parameters:
+      input_file: path
+    command: "python train.py {input_file}"
