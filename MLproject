@@ -1,4 +1,4 @@
-name: natihd16/mlflow-project-null:latest
+name: docker.io/natihd16/mlflow-project-null:latest
 
 docker_env:
     image: docker.io/natihd16/mlflow-project-null:latest
