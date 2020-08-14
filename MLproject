@@ -1,11 +1,11 @@
 name: project-null
 
 docker_env:
-    image: natihd16/mlflow-project-null:latest
+    image: project-null
     volumes: ["${HOME}/data:/home"]
 
 entry_points:
   main:
     parameters:
       input_file: string
-    command: "python train.py {input_file}"
+    command: "python /mlflow/projects/code/train.py {input_file}"
