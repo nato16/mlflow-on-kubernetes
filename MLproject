@@ -1,7 +1,7 @@
 name: My Project
 
 docker_env:
-    image:  natihd16/mlflow-project-null
+    image:  natihd16/mlflow-project-null:latest
 
 entry_points:
   main:
